@@ -18,16 +18,16 @@ mean_letters_per_message: 43.3722091657
 ```
 
 ## Plots
-![Plot 1](https://github.com/JanRuettinger/chat_analytics/blob/master/plot1.png "Logo Title Text 1")
+![Plot 1](https://github.com/JanRuettinger/chat_analytics/blob/master/plots/plot1.png "Logo Title Text 1")
 
 
-![Plot 2](https://github.com/JanRuettinger/chat_analytics/blob/master/plot2.png "Logo Title Text 1")
+![Plot 2](https://github.com/JanRuettinger/chat_analytics/blob/master/plots/plot2.png "Logo Title Text 1")
 
 
-![Plot 3](https://github.com/JanRuettinger/chat_analytics/blob/master/plot3.png "Logo Title Text 1")
+![Plot 3](https://github.com/JanRuettinger/chat_analytics/blob/master/plots/plot3.png "Logo Title Text 1")
 
 
-![Plot 4](https://github.com/JanRuettinger/chat_analytics/blob/master/plot4.png "Logo Title Text 1")
+![Plot 4](https://github.com/JanRuettinger/chat_analytics/blob/master/plots/plot4.png "Logo Title Text 1")
 
 
-![Plot 5](https://github.com/JanRuettinger/chat_analytics/blob/master/plot5.png "Logo Title Text 1")  
+![Plot 5](https://github.com/JanRuettinger/chat_analytics/blob/master/plots/plot5.png "Logo Title Text 1")  

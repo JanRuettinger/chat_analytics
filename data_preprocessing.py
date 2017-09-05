@@ -6,7 +6,7 @@ import re
 import datetime as dt
 
 # Open whatsapp chat backup
-with open('family.txt', 'r', encoding="utf-8") as f:
+with open('china.txt', 'r', encoding="utf-8") as f:
     data_raw = f.read()
 
 
@@ -177,7 +177,8 @@ plt.title("Activity per member (messages)")
 labels = activity_result['activity_members_messages'].index.values
 sizes = activity_result['activity_members_messages']
 percent = 100.*sizes/sizes.sum()
-patches, texts, dummy = plt.pie(sizes, autopct='%1.1f%%', startangle=90, radius=1.0)
+#patches, texts, dummy = plt.pie(sizes, autopct='%1.1f%%', startangle=90, radius=1.0)
+patches, texts = plt.pie(sizes, startangle=90, radius=1.0)
 labels_legend = ['{0} - {1:1.1f} %'.format(i,j) for i,j in zip(labels, percent)]
 lgd = plt.legend(patches, labels_legend, loc='best', bbox_to_anchor=(-0.1, 1.),
            fontsize=8)
@@ -193,7 +194,8 @@ plt.title("Activity per member (images)")
 labels = activity_result['acitivity_members_images'].index.values
 sizes = activity_result['acitivity_members_images']
 percent = 100.*sizes/sizes.sum()
-patches, texts, dummy = plt.pie(sizes, autopct='%1.1f%%', startangle=90, radius=1.0)
+# patches, texts, dummy = plt.pie(sizes, autopct='%1.1f%%', startangle=90, radius=1.0)
+patches, texts= plt.pie(sizes, startangle=90, radius=1.0)
 labels_legend = ['{0} - {1:1.1f} %'.format(i,j) for i,j in zip(labels, percent)]
 lgd = plt.legend(patches, labels_legend, loc='best', bbox_to_anchor=(-0.1, 1.),
            fontsize=8)
