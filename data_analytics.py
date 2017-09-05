@@ -6,7 +6,7 @@ import re
 import datetime as dt
 
 # Open whatsapp chat backup
-with open('china.txt', 'r', encoding="utf-8") as f:
+with open('family.txt', 'r', encoding="utf-8") as f:
     data_raw = f.read()
 
 
